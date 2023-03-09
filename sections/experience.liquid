@@ -1,0 +1,166 @@
+<div class="page-width">
+    <div class="experience portfolio-content">
+        <p class="portfolio-page-title">
+            Experience
+        </p>
+        {% if section.settings.heading != blank %}
+            <h2 class="portfolio-heading">
+                {{ section.settings.heading }}
+            </h2>
+        {% endif %}
+        <div class="experience-timeline-content">
+            <div class="experience-timeline">
+                {% assign summaries = section.blocks | where: 'type', 'summary' %}
+                {% if summaries.size > 0 %}
+                    <h4 class="timeline-heading">
+                        Summary
+                    </h4>
+                    {% for summary in summaries %}
+                        <div class="experience-timeline-item">
+                            {% if summary.settings.heading != blank %}
+                                <h4 class="timeline-subheading">
+                                    {{ summary.settings.heading }}
+                                </h4>
+                            {% endif %}
+                            {% if summary.settings.text != blank %}
+                                <div class="timeline-text">
+                                    {{ summary.settings.text }}
+                                </div>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+                {% assign educations = section.blocks | where: 'type', 'summary' %}
+                {% if educations.size > 0 %}
+                    <h4 class="timeline-heading">
+                        Education
+                    </h4>
+                    {% for education in educations %}
+                        <div class="experience-timeline-item">
+                            {% if education.settings.heading != blank %}
+                                <h4 class="timeline-subheading">
+                                    {{ education.settings.heading }}
+                                </h4>
+                            {% endif %}
+                            {% if education.settings.time != blank %}
+                                <span class="timeline-time">
+                                    {{ education.settings.time }}
+                                </span>
+                            {% endif %}
+                            {% if education.settings.text != blank %}
+                                <div class="timeline-text">
+                                    {{ education.settings.text }}
+                                </div>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            </div>
+            <div class="experience-timeline">
+                {% assign experiences = section.blocks | where: 'type', 'summary' %}
+                {% if experiences.size > 0 %}
+                    <h4 class="timeline-heading">
+                        Professional Experience
+                    </h4>
+                    {% for experience in experiences %}
+                        <div class="experience-timeline-item">
+                            {% if experience.settings.heading != blank %}
+                                <h4 class="timeline-subheading">
+                                    {{ experience.settings.heading }}
+                                </h4>
+                            {% endif %}
+                            {% if experience.settings.time != blank %}
+                                <span class="timeline-time">
+                                    {{ experience.settings.time }}
+                                </span>
+                            {% endif %}
+                            {% if experience.settings.text != blank %}
+                                <div class="timeline-text">
+                                    {{ experience.settings.text }}
+                                </div>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% schema %}
+    {
+        "name": "Experience",
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading",
+                "default": "CHECK MY RESUME"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "summary",
+                "name": "Summary",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "heading",
+                        "label": "Heading"
+                    },
+                    {
+                        "type": "inline_richtext",
+                        "id": "text",
+                        "label": "Text"
+                    }
+                ]
+            },
+            {
+                "type": "education",
+                "name": "Education",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "heading",
+                        "label": "Heading"
+                    },
+                    {
+                        "type": "text",
+                        "id": "time",
+                        "label": "Time"
+                    },
+                    {
+                        "type": "inline_richtext",
+                        "id": "text",
+                        "label": "Text"
+                    }
+                ]
+            },
+            {
+                "type": "experience",
+                "name": "Experience",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "heading",
+                        "label": "Heading"
+                    },
+                    {
+                        "type": "text",
+                        "id": "time",
+                        "label": "Time"
+                    },
+                    {
+                        "type": "inline_richtext",
+                        "id": "text",
+                        "label": "Text"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "Experience"
+            }
+        ]
+    }
+{% endschema %}
