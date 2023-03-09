@@ -371,8 +371,9 @@ sticky-header {
 }
 
 .abpit-me__info-list li {
-    width: 50%;
+    width: calc(50% - 20px);
     padding-right: 10px;
+    margin-left: 20px;
 }
 
 .abpit-me__info-list li::marker {
