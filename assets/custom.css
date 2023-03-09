@@ -10,7 +10,7 @@ body::before {
     z-index: -1;
 }
 
-.template--page {
+.template--page .content-for-layout {
     padding-top: 120px;
     padding-bottom: 50px;
 }
@@ -20,7 +20,7 @@ body::before {
 }
 
 @media (max-width: 749px) {
-    .template--page {
+    .template--page .content-for-layout {
         padding-top: 70px;
         padding-bottom: 0;
     }
@@ -286,7 +286,7 @@ sticky-header {
 .portfolio-content {
     background: rgba(0, 0, 0, 0.9);
     padding: 30px;
-    animation: slideUp 0.4s;
+    animation: slideUp 1.4s;
 }
 
 .portfolio-content * {

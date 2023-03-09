@@ -239,7 +239,8 @@
     </script>
   </head>
 
-  <body class="gradient template--{{ template.name }}">
+  <body class="gradient">
+
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
@@ -248,11 +249,17 @@
       {%- render 'cart-drawer' -%}
     {%- endif -%}
 
-    {% sections 'header-group' %}
+    <div data-barba="wrapper">
+      <div data-barba="container" data-barba-namespace="template-{{ page.handle }}">
+        <div class="template--{{ template.name }} page--{{ page.handle }}">
+          {% sections 'header-group' %}
 
-    <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      {{ content_for_layout }}
-    </main>
+          <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+            {{ content_for_layout }}
+          </main>
+        </div>
+      </div>
+    </div>
 
     {% sections 'footer-group' %}
 
@@ -295,4 +302,7 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
   </body>
+  <script defer="defer" src="{{ 'barba.js' | asset_url }}" ></script>
+  <script defer="defer" src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
+  <script defer="defer" src="{{ 'custom.js' | asset_url }}"></script>
 </html>
