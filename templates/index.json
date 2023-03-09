@@ -14,7 +14,8 @@
           "type": "text",
           "settings": {
             "text": "<p>I'm a passionate <strong>Shopify Developer<\/strong>. Based in EL Paso, IL.<\/p>",
-            "text_style": "body"
+            "text_style": "body",
+            "menu": "main-menu"
           }
         }
       },
@@ -30,7 +31,7 @@
         "show_text_box": false,
         "desktop_content_alignment": "left",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
