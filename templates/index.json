@@ -13,7 +13,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "I'm a passionate Shopify Theme and App Developer. Based in EL Paso, IL.",
+            "text": "<p>I'm a passionate <strong>Shopify Developer<\/strong>. Based in EL Paso, IL.<\/p>",
             "text_style": "body"
           }
         }
