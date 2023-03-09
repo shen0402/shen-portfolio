@@ -1,0 +1,85 @@
+{% schema %}
+    {
+        "name": "About me",
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading",
+                "default": "LEARN MORE ABOUT ME"
+            },
+            {
+                "type": "image_picker",
+                "id": "avatar",
+                "label": "Avatar"
+            },
+            {
+                "type": "text",
+                "id": "subheading",
+                "label": "Subheading",
+                "default": "Software Engineer"
+            },
+            {
+                "type": "richtext",
+                "id": "description",
+                "label": "Description",
+                "default": "<p><i>Studying Bsc Computer Science at Hellenic Open University (EAP). I love creating new things from scratch and making the world a better place.</i></p>"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "personal_info",
+                "name": "Personal info",
+                "settings": [
+                    {
+                        "type": "richtext",
+                        "id": "info",
+                        "label": "Info"
+                    }
+                ]
+            },
+            {
+                "type": "icon_with_text",
+                "name": "Icon with text",
+                "settings": [
+                    {
+                        "type": "html",
+                        "id": "icon",
+                        "label": "Icon"
+                    },
+                    {
+                        "type": "number",
+                        "id": "number",
+                        "label": "Number"
+                    },
+                    {
+                        "type": "text",
+                        "id": "text",
+                        "label": "Text"
+                    }
+                ]
+            },
+            {
+                "type": "skill",
+                "name": "Skill",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "label",
+                        "label": "Label"
+                    },
+                    {
+                        "type": "number",
+                        "id": "percent",
+                        "label": "Percent"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "About me"
+            }
+        ]
+    }
+{% endschema %}
