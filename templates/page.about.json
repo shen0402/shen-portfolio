@@ -77,6 +77,146 @@
             "number": 3,
             "text": "Certifications"
           }
+        },
+        "0265367d-1b37-422a-b9e0-d6e0ee3c3f29": {
+          "type": "skill",
+          "settings": {
+            "label": "Html",
+            "percent": 100
+          }
+        },
+        "86f1eecb-dd81-4b2e-be80-8b0bd664322f": {
+          "type": "skill",
+          "settings": {
+            "label": "Css\/Scss",
+            "percent": 100
+          }
+        },
+        "b4418f32-b66b-4b29-980b-6f0293f22116": {
+          "type": "skill",
+          "settings": {
+            "label": "JavaScript\/Jquery",
+            "percent": 100
+          }
+        },
+        "affadac8-db62-4d93-b9d9-b3c7d353b66c": {
+          "type": "skill",
+          "settings": {
+            "label": "BOOTSTRAP",
+            "percent": 100
+          }
+        },
+        "013c978c-4e58-4bdc-b1b9-3f6a9c1c8f9f": {
+          "type": "skill",
+          "settings": {
+            "label": "React.js",
+            "percent": 95
+          }
+        },
+        "ab9702af-beb7-4501-afda-2c400868fa41": {
+          "type": "skill",
+          "settings": {
+            "label": "Vue.js",
+            "percent": 90
+          }
+        },
+        "36e87360-785e-4762-b1cc-fddac2eab390": {
+          "type": "skill",
+          "settings": {
+            "label": "Node.js",
+            "percent": 90
+          }
+        },
+        "1fc7b4d1-0e24-4eda-a27c-a6dcf1ebe565": {
+          "type": "skill",
+          "settings": {
+            "label": "TAILWIND CSS\/UI",
+            "percent": 95
+          }
+        },
+        "e4492ea2-c2e0-4a39-a7de-ba43de50de2e": {
+          "type": "skill",
+          "settings": {
+            "label": "Alpine.js",
+            "percent": 89
+          }
+        },
+        "856e1364-76a0-499a-9285-e0e05214edda": {
+          "type": "skill",
+          "settings": {
+            "label": "SHOPIFY\/SHOPIFY PLUS",
+            "percent": 100
+          }
+        },
+        "53808b2c-da8d-480d-95f1-936a0f59f913": {
+          "type": "skill",
+          "settings": {
+            "label": "WORDPRESS",
+            "percent": 85
+          }
+        },
+        "a02e1062-a145-48bd-a8e9-5fe11f97c6a7": {
+          "type": "skill",
+          "settings": {
+            "label": "PHP (LARAVEL)",
+            "percent": 80
+          }
+        },
+        "5b9febae-4fb7-412c-9d41-2afe63606c08": {
+          "type": "skill",
+          "settings": {
+            "label": "Liquid",
+            "percent": 100
+          }
+        },
+        "2ee0074d-b6fa-4f21-9754-9a15e520c309": {
+          "type": "skill",
+          "settings": {
+            "label": "Shopify CLI",
+            "percent": 100
+          }
+        },
+        "c5bd3167-8e2c-4d9d-b19f-c62137e4e3b5": {
+          "type": "skill",
+          "settings": {
+            "label": "Gulp",
+            "percent": 86
+          }
+        },
+        "e670b22d-6486-4ecb-9b42-8c2b7052b351": {
+          "type": "skill",
+          "settings": {
+            "label": "AJAX \/ Axios \/ Fetch",
+            "percent": 90
+          }
+        },
+        "fc590ef8-e50e-4af9-9ced-4b122c28c06d": {
+          "type": "skill",
+          "settings": {
+            "label": "MySQL",
+            "percent": 76
+          }
+        },
+        "c184dcfc-e954-4c97-a114-ed16074252ac": {
+          "type": "skill",
+          "settings": {
+            "label": "MongoDB",
+            "percent": 84
+          }
+        },
+        "801244ee-7045-4bd0-b32b-4e13d601b0a6": {
+          "type": "skill",
+          "settings": {
+            "label": "Git\/GitHUB\/GitLAB",
+            "percent": 90
+          }
+        },
+        "793d27f7-3be2-4125-941b-484263167d5f": {
+          "type": "skill",
+          "settings": {
+            "label": "Asana\/Jira\/Trello\/Notion\/Slack",
+            "percent": 90
+          }
         }
       },
       "block_order": [
@@ -89,7 +229,27 @@
         "6f4b9228-bf14-4333-be19-132c2bc3028a",
         "7f9fb633-91b6-4b72-827f-fcfc372e44d1",
         "4a26cfe6-6aaf-49cd-9cb6-9cdaf5275c42",
-        "f434966c-a815-4d32-8b76-8103c7922acd"
+        "f434966c-a815-4d32-8b76-8103c7922acd",
+        "0265367d-1b37-422a-b9e0-d6e0ee3c3f29",
+        "86f1eecb-dd81-4b2e-be80-8b0bd664322f",
+        "b4418f32-b66b-4b29-980b-6f0293f22116",
+        "affadac8-db62-4d93-b9d9-b3c7d353b66c",
+        "013c978c-4e58-4bdc-b1b9-3f6a9c1c8f9f",
+        "ab9702af-beb7-4501-afda-2c400868fa41",
+        "36e87360-785e-4762-b1cc-fddac2eab390",
+        "1fc7b4d1-0e24-4eda-a27c-a6dcf1ebe565",
+        "e4492ea2-c2e0-4a39-a7de-ba43de50de2e",
+        "856e1364-76a0-499a-9285-e0e05214edda",
+        "53808b2c-da8d-480d-95f1-936a0f59f913",
+        "a02e1062-a145-48bd-a8e9-5fe11f97c6a7",
+        "5b9febae-4fb7-412c-9d41-2afe63606c08",
+        "2ee0074d-b6fa-4f21-9754-9a15e520c309",
+        "c5bd3167-8e2c-4d9d-b19f-c62137e4e3b5",
+        "e670b22d-6486-4ecb-9b42-8c2b7052b351",
+        "fc590ef8-e50e-4af9-9ced-4b122c28c06d",
+        "c184dcfc-e954-4c97-a114-ed16074252ac",
+        "801244ee-7045-4bd0-b32b-4e13d601b0a6",
+        "793d27f7-3be2-4125-941b-484263167d5f"
       ],
       "settings": {
         "heading": "LEARN MORE ABOUT ME",
