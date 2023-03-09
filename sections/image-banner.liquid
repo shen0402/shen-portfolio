@@ -98,7 +98,7 @@
             {{ block.settings.text }}
           </div>
           <div class="banner__menu small-hide">
-            {%- for link in section.settings.menu.links -%}
+            {%- for link in block.settings.menu.links -%}
               <a class="banner__menu-item {% if link.current %}active{% endif %}" href="{{ link.url }}">
                 {{ link.title | escape }}
               </a>
