@@ -4,8 +4,7 @@
   {%- style -%}
     @media screen and (max-width: 749px) {
       #Banner-{{ section.id }}: : before, #Banner-{{ section.id }}.banner__media::before, #Banner-{{ section.id }}:not(.banner--mobile-bottom) .banner__content::before  {
-        padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}
-        %;
+        padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;
         content: '';
         display: block;
       }
@@ -13,8 +12,7 @@
 
     @media screen and (min-width: 750px) {
       #Banner-{{ section.id }}: : before, #Banner-{{ section.id }}.banner__media::before {
-        padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}
-        %;
+        padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;
         content: '';
         display: block;
       }
@@ -24,8 +22,7 @@
 
 {%- style -%}
   #Banner-{{ section.id }}::after {
-    opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }}
-    ;
+    opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
 {%- endstyle -%}
 
@@ -98,7 +95,17 @@
           </h2>
           {%- when 'text' -%}
           <div class="banner__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-            <span>{{ block.settings.text | escape }}</span>
+            {{ block.settings.text }}
+          </div>
+          <div class="banner__menu small-hide">
+            {%- for link in section.settings.menu.links -%}
+              <a class="banner__menu-item {% if link.current %}active{% endif %}" href="{{ link.url }}">
+                {{ link.title | escape }}
+              </a>
+            {%- endfor -%}
+          </div>
+          <div class="banner__social-link">
+            {%- render 'social-icons' -%}
           </div>
           {%- when 'buttons' -%}
           <div class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
@@ -359,6 +366,11 @@
             ],
             "default": "body",
             "label": "t:sections.image-banner.blocks.text.settings.text_style.label"
+          }, {
+            "type": "link_list",
+            "id": "menu",
+            "default": "main-menu",
+            "label": "t:sections.header.settings.menu.label"
           }
         ]
       }, {

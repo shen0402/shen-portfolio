@@ -1,28 +1,28 @@
 <ul class="footer__list-social list-unstyled list-social">
   {%- if settings.social_linkedin_link != blank -%}
     <li class="list-social__item">
-      <a href="{{ settings.social_linkedin_link }}" class="link list-social__link">
+      <a href="{{ settings.social_linkedin_link }}" class="link list-social__link" target="_blank">
         {%- render 'icon-linkedin' -%}
       </a>
     </li>
   {%- endif -%}
   {%- if settings.social_github_link != blank -%}
     <li class="list-social__item">
-      <a href="{{ settings.social_github_link }}" class="link list-social__link">
+      <a href="{{ settings.social_github_link }}" class="link list-social__link" target="_blank">
         {%- render 'icon-github' -%}
       </a>
     </li>
   {%- endif -%}
   {%- if settings.social_email_link != blank -%}
     <li class="list-social__item">
-      <a href="{{ settings.social_email_link }}" class="link list-social__link">
+      <a href="mailto: {{ settings.social_email_link }}" class="link list-social__link">
         {%- render 'icon-email' -%}
       </a>
     </li>
   {%- endif -%}
   {%- if settings.social_number_link != blank -%}
     <li class="list-social__item">
-      <a href="{{ settings.social_number_link }}" class="link list-social__link">
+      <a href="tel: +{{ settings.social_number_link }}" class="link list-social__link">
         {%- render 'icon-phone' -%}
       </a>
     </li>

@@ -14,3 +14,41 @@
 .banner__box {
     max-width: 95rem !important;
 }
+
+.banner__box strong {
+    color: #fff;
+    border-bottom: 2px solid #18d26e;
+    padding-bottom: 6px;
+}
+
+.list-social__item .icon {
+    width: 16px;
+    height: 16px;
+    fill: #fff;
+}
+
+.list-social__item {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    line-height: 1;
+    margin-right: 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+    box-shadow: 5px 5px 10px rgb(255 255 255 / 10%);
+    cursor: pointer;
+}
+
+.list-social__item:hover {
+    background: #18d26e;
+    box-shadow: 5px 5px 10px rgb(24 210 110 / 50%);
+}
+
+.list-social {
+    display: flex;
+}
