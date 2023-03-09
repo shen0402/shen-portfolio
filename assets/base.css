@@ -244,7 +244,7 @@ html.no-js .no-js-hidden {
 }
 
 .page-width {
-  max-width: var(--page-width);
+  max-width: 160rem;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
@@ -431,12 +431,12 @@ h5,
 }
 
 .h0 {
-  font-size: calc(var(--font-heading-scale) * 4rem);
+  font-size: 36px;
 }
 
 @media only screen and (min-width: 750px) {
   .h0 {
-    font-size: calc(var(--font-heading-scale) * 5.2rem);
+    font-size: 48px;
   }
 }
 

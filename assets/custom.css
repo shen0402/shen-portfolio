@@ -1,0 +1,16 @@
+.banner {
+    min-height: 100vh!important;
+}
+
+.template--index .section-header {
+    display: none;
+}
+
+.banner__text {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.banner__box {
+    max-width: 95rem !important;
+}
