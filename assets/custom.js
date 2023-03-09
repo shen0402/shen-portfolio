@@ -1,5 +1,5 @@
 function initPage() {
-    console.log('init page');
+    document.body.classList.remove('overflow-hidden-tablet');
 }
 if (document.querySelector('[data-barba="wrapper"]')) {
     setTimeout(() => {
