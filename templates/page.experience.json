@@ -6,9 +6,28 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "a27aa779-ffb6-492d-a442-2e10f69bfbbc": {
+      "type": "experience",
+      "blocks": {
+        "d2891af2-997d-4e81-9494-bc9dc97d60a1": {
+          "type": "summary",
+          "settings": {
+            "heading": "Shen Zaijun",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "d2891af2-997d-4e81-9494-bc9dc97d60a1"
+      ],
+      "settings": {
+        "heading": "CHECK MY RESUME"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "a27aa779-ffb6-492d-a442-2e10f69bfbbc"
   ]
 }
