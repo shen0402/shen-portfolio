@@ -14,12 +14,57 @@
           "type": "summary",
           "settings": {
             "heading": "Shen Zaijun",
-            "text": ""
+            "text": "<p>Innovative and deadline-driven Shopify Developer with 8+ years of experience designing and developing user-centered web development for clients.<\/p><p><\/p>"
+          }
+        },
+        "c48a78b7-7616-4b79-af1b-0365f517638d": {
+          "type": "education",
+          "settings": {
+            "heading": "Nanyang Technological University, Singapore",
+            "time": "201 - 2015",
+            "text": "<ul><li>Bachelor's degree<\/li><li>Computer of science<\/li><\/ul>"
+          }
+        },
+        "61ccf453-67d7-4f9f-ba04-899c31418ea1": {
+          "type": "experience",
+          "settings": {
+            "heading": "Senior Shopify developer at Ea Goats",
+            "time": "AprilApril 2022 - January 2023",
+            "text": "<ul><li>Shopify theme development \/ customization.<\/li><li>Shopify app integration.<\/li><li>Shopify page speed optimization.<\/li><\/ul>"
+          }
+        },
+        "28fe10e1-8d98-41e3-b897-abd8583c8000": {
+          "type": "experience",
+          "settings": {
+            "heading": "Senior Shopify developer at RiessGroup",
+            "time": "June 2019 - April 2022",
+            "text": "<ul><li>Shopify theme development \/ customization.<\/li><li>Shopify app integration.<\/li><li>Shopify store design and responsive design.<\/li><li>Shopify page speed optimization.<\/li><li>Development of sites and web applications with complex graphics.<\/li><li>Close cooperation with the backend team, designers and managers.<\/li><\/ul>"
+          }
+        },
+        "c90757e7-2147-4763-adb1-7eebbdb0ddb5": {
+          "type": "experience",
+          "settings": {
+            "heading": "Junior Shopify developer at Avex",
+            "time": "September 2017 - May 2018",
+            "text": "<ul><li>Hands-oHands-on experience of Shopify product, collection, order, customer API.<\/li><li>SEO<\/li><li>Shopify Template development from design XD\/Zeplin\/Figma.<\/li><li>Migrate sites from other CMS to Shopify.<\/li><li>Shopify API integration.<\/li><\/ul>"
+          }
+        },
+        "b748dcde-2955-466d-b87f-cc5ad0d88387": {
+          "type": "experience",
+          "settings": {
+            "heading": "Shopify Developer at Ripen",
+            "time": "March 2015 - June 2017",
+            "text": "<ul><li>Technical support, solution finding, brainstorming<\/li><li>Work organization and meet deadlines<\/li><li>Manage multiple projects for different brands<\/li><\/ul>"
           }
         }
       },
       "block_order": [
-        "d2891af2-997d-4e81-9494-bc9dc97d60a1"
+        "d2891af2-997d-4e81-9494-bc9dc97d60a1",
+        "c48a78b7-7616-4b79-af1b-0365f517638d",
+        "61ccf453-67d7-4f9f-ba04-899c31418ea1",
+        "28fe10e1-8d98-41e3-b897-abd8583c8000",
+        "c90757e7-2147-4763-adb1-7eebbdb0ddb5",
+        "b748dcde-2955-466d-b87f-cc5ad0d88387"
       ],
       "settings": {
         "heading": "CHECK MY RESUME"
