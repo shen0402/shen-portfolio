@@ -384,6 +384,10 @@ sticky-header {
     margin-bottom: 20px;
 }
 
+.abpit-me__info-list a {
+    color: #18d26e;
+}
+
 .about-me__icon-with-text {
     display: flex;
     justify-content: space-between;
@@ -495,6 +499,77 @@ sticky-header {
     .skill-item {
         padding: 0;
         flex: 0 100%;
+    }
+}
+
+.experience-timeline-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experience-timeline {
+    width: 50%;
+}
+
+.timeline-heading {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    letter-spacing: 0;
+}
+
+.experience-timeline-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+}
+
+.experience-timeline-item:last-of-type, .experience-timeline:first-of-type .experience-timeline-item {
+    padding-bottom: 0;
+}
+
+.experience-timeline-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #18d26e;
+    border: 2px solid #18d26e;
+}
+
+.timeline-subheading {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #18d26e;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.timeline-time {
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-top: 1px;
+}
+
+.timeline-text ul {
+ padding-left: 20px;
+}
+
+@media (max-width: 749px) {
+    .experience-timeline {
+        width: 100%;
     }
 }
 
