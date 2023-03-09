@@ -1411,13 +1411,13 @@
         "type": "text",
         "id": "social_linkedin_link",
         "label": "Linkedin",
-        "info": "https://www.linkedin.com/"
+        "info": "https:\/\/www.linkedin.com\/"
       },
       {
         "type": "text",
         "id": "social_github_link",
         "label": "GitHub",
-        "info": "https://github.com/"
+        "info": "https:\/\/github.com\/"
       },
       {
         "type": "text",
@@ -1435,7 +1435,7 @@
         "type": "text",
         "id": "social_cv_link",
         "label": "CV",
-        "info": "/cv.pdf"
+        "info": "\/cv.pdf"
       }
     ]
   },

@@ -109,6 +109,19 @@
     "brand_headline": "",
     "brand_description": "<p><\/p>",
     "brand_image_width": 100,
+    "social_linkedin_link": "https:\/\/www.linkedin.com\/in\/shen-zaijun-shopify",
+    "social_github_link": "https:\/\/github.com\/shen0402",
+    "social_email_link": "shenzaijun0402@gmail.com",
+    "social_number_link": "16034667391",
+    "social_cv_link": "#",
+    "predictive_search_enabled": true,
+    "predictive_search_show_vendor": false,
+    "predictive_search_show_price": false,
+    "currency_code_enabled": true,
+    "cart_type": "notification",
+    "show_vendor": false,
+    "show_cart_note": false,
+    "cart_drawer_collection": "",
     "social_facebook_link": "",
     "social_instagram_link": "",
     "social_youtube_link": "",
@@ -118,14 +131,6 @@
     "social_pinterest_link": "",
     "social_tumblr_link": "",
     "social_vimeo_link": "",
-    "predictive_search_enabled": true,
-    "predictive_search_show_vendor": false,
-    "predictive_search_show_price": false,
-    "currency_code_enabled": true,
-    "cart_type": "notification",
-    "show_vendor": false,
-    "show_cart_note": false,
-    "cart_drawer_collection": "",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -139,7 +144,10 @@
           "color_scheme": "background-1"
         }
       }
-    }
+    },
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {
