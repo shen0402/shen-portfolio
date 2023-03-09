@@ -647,7 +647,7 @@ h6:empty {
 }
 
 .link--text:hover {
-  color: rgba(var(--color-foreground), 0.75);
+  color: #18d26e;
 }
 
 .link-with-icon {
@@ -2348,7 +2348,8 @@ product-info .loading-overlay:not(.hidden) ~ *,
 }
 
 .header__heading-link:hover .h2 {
-  color: rgb(var(--color-foreground));
+  color: #18d26e;
+  transition: 0.3s;
 }
 
 .header__heading-link .h2 {

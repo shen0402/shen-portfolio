@@ -1,12 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
     "716ec6b9-9426-4830-86ac-fdc432a7a6aa": {
       "type": "about-me",
       "blocks": {
@@ -260,7 +253,6 @@
     }
   },
   "order": [
-    "main",
     "716ec6b9-9426-4830-86ac-fdc432a7a6aa"
   ]
 }

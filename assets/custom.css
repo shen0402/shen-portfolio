@@ -10,6 +10,22 @@ body::before {
     z-index: -1;
 }
 
+.template--page {
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.template--page .content-for-layout .page-width {
+    max-width: 142rem;
+}
+
+@media (max-width: 749px) {
+    .template--page {
+        padding-top: 70px;
+        padding-bottom: 0;
+    }
+}
+
 .banner {
     min-height: 100vh!important;
 }
@@ -105,6 +121,7 @@ sticky-header {
     transition: 0.3s;
     position: relative;
     margin-left: 30px;
+    text-decoration: none;
 }
 
 .banner__menu-item:first-of-type {
@@ -261,9 +278,231 @@ sticky-header {
     color: #fff;
 }
 
-@media (min-width: 768px) {
-    .header {
-        background: rgba(0, 0, 0, 0.9);
-        max-width: 100%;
+.template--page .header {
+    background: rgba(0, 0, 0, 0.9);
+    max-width: 100%;
+}
+
+.portfolio-content {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+    animation: slideUp 0.4s;
+}
+
+.portfolio-content * {
+    color: #fff;
+}
+
+.portfolio-page-title {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+}
+
+.portfolio-page-title::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
+
+.portfolio-heading {
+    margin: 0;
+    margin: -15px 0 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+.about-me__iwt {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-me__img {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+}
+
+.about-me__img img {
+    width: 100%;
+    height: auto;
+}
+
+.about-me__text {
+    flex: 0 0 auto;
+    width: 66.6666666667%;
+    padding: 0 1.5rem;
+}
+
+.portfolio-subheading {
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.text-primary {
+    color: #18d26e;
+}
+
+.portfolio-body {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+
+.abpit-me__info-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.abpit-me__info-list li {
+    width: 50%;
+    padding-right: 10px;
+}
+
+.abpit-me__info-list li::marker {
+    color: #18d26e;
+}
+
+.abpit-me__info-list li p {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.about-me__icon-with-text {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+
+.about-me__icon-with-text .iwt-item {
+    width: calc(25% - 20px);
+    padding: 30px 30px 25px 30px;
+    position: relative;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.about-me__icon-with-text .iwt-icon {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    color: #18d26e;
+    border-radius: 50px;
+    line-height: 0;
+}
+
+.about-me__icon-with-text .iwt-icon svg {
+    width: 24px;
+}
+
+.about-me__icon-with-text .iwt-number {
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+    color: #fff;
+}
+
+.about-me__icon-with-text .iwt-text {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.about-me__skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-item {
+    flex: 0 50%;
+    padding-right: 20px;
+}
+
+.skill-label {
+    padding: 10px 0;
+    margin: 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-size: 12px;
+}
+
+.skill-progress {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.skill-progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: .9s;
+    background-color: #18d26e;
+    display: block !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    transition: width .6s ease;
+}
+
+@media (max-width: 989px) {
+    .template--page .content-for-layout .page-width {
+        padding: 0;
+    }
+
+    .about-me__img, .about-me__text {
+        width: 100%;
+    }
+
+    .abpit-me__info-list li {
+        width: 100%;
+    }
+
+    .about-me__icon-with-text .iwt-item {
+        flex: 0 100%;
+        margin-top: 20px;
+    }
+
+    .about-me__icon-with-text .iwt-item:first-of-type {
+        margin-top: 0;
+    }
+
+    .skill-item {
+        padding: 0;
+        flex: 0 100%;
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
     }
 }

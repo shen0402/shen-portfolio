@@ -1,3 +1,76 @@
+<div class="page-width">
+    <div class="about-me portfolio-content">
+        <p class="portfolio-page-title">
+            About
+        </p>
+        {% if section.settings.heading != blank %}
+            <h2 class="portfolio-heading">
+                {{ section.settings.heading }}
+            </h2>
+        {% endif %}
+        <div class="about-me__iwt">
+            <div class="about-me__img">
+                {{ section.settings.avatar | img_url: '450x' | img_tag }}
+            </div>
+            <div class="about-me__text">
+                {% if section.settings.subheading != blank %}
+                    <h3 class="portfolio-subheading text-primary">
+                        {{ section.settings.subheading }}
+                    </h3>
+                {% endif %}
+                {% if section.settings.description != blank %}
+                    <div class="portfolio-body">
+                        {{ section.settings.description }}
+                    </div>
+                {% endif %}
+                {% assign infos = section.blocks | where: 'type', 'personal_info' %}
+                {% if infos.size > 0 %}
+                    <ul class="abpit-me__info-list">
+                        {% for info in infos %}
+                            <li>
+                                {{ info.settings.info }}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </div>
+        </div>
+        {% assign iwts = section.blocks | where: 'type', 'icon_with_text' %}
+        {% if iwts.size > 0 %}
+            <div class="about-me__icon-with-text">
+                {% for iwt in iwts %}
+                    <div class="iwt-item">
+                        <span class="iwt-icon">
+                            {{ iwt.settings.icon }}
+                        </span>
+                        <span class="iwt-number">
+                            {{ iwt.settings.number }}
+                        </span>
+                        <p class="iwt-text">
+                            {{ iwt.settings.text }}
+                        </p>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+        {% assign skills = section.blocks | where: 'type', 'skill' %}
+        {% if skills.size > 0 %}
+            <p class="portfolio-page-title">
+                Skills
+            </p>
+            <div class="about-me__skills">
+                {% for skill in skills %}
+                    <div class="skill-item">
+                        <span class="skill-label">{{ skill.settings.label }}</span>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" style="width: {{ skill.settings.percent }}%"></div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+</div>
 {% schema %}
     {
         "name": "About me",
