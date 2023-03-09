@@ -1,3 +1,15 @@
+body::before {
+    content: "";
+    position: fixed;
+    background: #040404 url("bg.jpg") top right no-repeat;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+}
+
 .banner {
     min-height: 100vh!important;
 }
@@ -191,5 +203,67 @@ sticky-header {
 
     .js .menu-drawer__menu li {
         padding: 12px 20px;
+    }
+}
+
+.list-menu__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    white-space: nowrap;
+    transition: 0.3s;
+    position: relative;
+}
+
+.list-menu__item span {
+    transition: 0.3s;
+}
+
+.list-menu__item::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #18d26e;
+    visibility: hidden;
+    width: 0px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.list-menu__item[aria-current="page"] *, .list-menu__item:hover * {
+    color: #fff;
+    text-decoration: none !important;
+}
+
+.list-menu__item[aria-current="page"]::before, .list-menu__item:hover::before {
+    visibility: visible;
+    width: 25px;
+}
+
+.list-menu--inline li {
+    margin-left: 30px;
+}
+
+.list-menu--inline li:first-of-type {
+    margin-left: 0;
+}
+
+.header__heading-link .h2 {
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .header {
+        background: rgba(0, 0, 0, 0.9);
+        max-width: 100%;
     }
 }
