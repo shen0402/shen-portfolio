@@ -6,9 +6,65 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "716ec6b9-9426-4830-86ac-fdc432a7a6aa": {
+      "type": "about-me",
+      "blocks": {
+        "781ac5a6-0dd0-4dc7-9e42-6ee35638a24d": {
+          "type": "personal_info",
+          "settings": {
+            "info": "<p><strong>Birthday:<\/strong> 2 Apr 1994<\/p>"
+          }
+        },
+        "147445f3-90e7-449d-83d4-268d7e3a3ec1": {
+          "type": "personal_info",
+          "settings": {
+            "info": "<p><strong>Age: <\/strong>29<\/p>"
+          }
+        },
+        "c8d5c1f5-d880-4ce9-a516-527bf0fa8ebe": {
+          "type": "personal_info",
+          "settings": {
+            "info": "<p>Website: <a href=\"https:\/\/shenzaijun.myshopify.com\/\" title=\"https:\/\/shenzaijun.myshopify.com\/\">https:\/\/shenzaijun.myshopify.com<\/a><\/p>"
+          }
+        },
+        "c2979b58-d366-4266-83f4-f6e808f467d8": {
+          "type": "personal_info",
+          "settings": {
+            "info": "<p><strong>Email: <\/strong><a href=\"mailto:shenzaijun0402@gmail.com\" title=\"mailto:shenzaijun0402@gmail.com\">shenzaijun0402@gmail.com<\/a><\/p>"
+          }
+        },
+        "c2254e9f-27f7-4358-a542-0fac426b9021": {
+          "type": "personal_info",
+          "settings": {
+            "info": "<p><strong>City: <\/strong>El Paso, IL<\/p>"
+          }
+        },
+        "4b2bbc21-f3f3-4242-aaa9-0683e1a61998": {
+          "type": "personal_info",
+          "settings": {
+            "info": "<p><strong>Freelance:<\/strong> Limited Availability<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "781ac5a6-0dd0-4dc7-9e42-6ee35638a24d",
+        "147445f3-90e7-449d-83d4-268d7e3a3ec1",
+        "c8d5c1f5-d880-4ce9-a516-527bf0fa8ebe",
+        "c2979b58-d366-4266-83f4-f6e808f467d8",
+        "c2254e9f-27f7-4358-a542-0fac426b9021",
+        "4b2bbc21-f3f3-4242-aaa9-0683e1a61998"
+      ],
+      "settings": {
+        "heading": "LEARN MORE ABOUT ME",
+        "avatar": "shopify:\/\/shop_images\/avatar-min.png",
+        "subheading": "Shopify Developer",
+        "description": "<p><em>I have an extensive background in Shopify Development and Website Optimization and User Experience. I do my best work when working with collaborative teams that push me to hustle learn and grow. I am a big believer in knowledge sharing and mentorship and do what I can to help teach those around me.<\/em><\/p>"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "716ec6b9-9426-4830-86ac-fdc432a7a6aa"
   ]
 }
