@@ -30,7 +30,7 @@
                         </div>
                     {% endfor %}
                 {% endif %}
-                {% assign educations = section.blocks | where: 'type', 'summary' %}
+                {% assign educations = section.blocks | where: 'type', 'education' %}
                 {% if educations.size > 0 %}
                     <h4 class="timeline-heading">
                         Education
@@ -57,7 +57,7 @@
                 {% endif %}
             </div>
             <div class="experience-timeline">
-                {% assign experiences = section.blocks | where: 'type', 'summary' %}
+                {% assign experiences = section.blocks | where: 'type', 'experience' %}
                 {% if experiences.size > 0 %}
                     <h4 class="timeline-heading">
                         Professional Experience
@@ -108,7 +108,7 @@
                         "label": "Heading"
                     },
                     {
-                        "type": "inline_richtext",
+                        "type": "richtext",
                         "id": "text",
                         "label": "Text"
                     }
@@ -129,7 +129,7 @@
                         "label": "Time"
                     },
                     {
-                        "type": "inline_richtext",
+                        "type": "richtext",
                         "id": "text",
                         "label": "Text"
                     }
@@ -150,7 +150,7 @@
                         "label": "Time"
                     },
                     {
-                        "type": "inline_richtext",
+                        "type": "richtext",
                         "id": "text",
                         "label": "Text"
                     }
