@@ -4,6 +4,7 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "disabled": true,
       "blocks": {
         "footer-0": {
           "type": "link_list",
