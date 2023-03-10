@@ -8,11 +8,7 @@ if (document.querySelector('[data-barba="wrapper"]')) {
                 {
                     name: 'opacity-transition',
                     leave(data) {
-                        document.querySelector('data-barba="wrapper"').classList.add('loading');
-                    },
-
-                    enter(data) {
-                        document.querySelector('data-barba="wrapper"').classList.remove('loading');
+                        document.body.classList.add('loading');
                     },
             
                     afterLeave(data) {
@@ -21,14 +17,14 @@ if (document.querySelector('[data-barba="wrapper"]')) {
                     once(data) {
                         setTimeout(() => {
                             initPage();
-                        }, 100);
+                        }, 500);
                     },
             
                     beforeEnter(data) {},
                     afterEnter(data) {
                         setTimeout(() => {
                             initPage();
-                        }, 100);
+                        }, 500);
                     }
                 }
             ]

@@ -577,7 +577,7 @@ sticky-header {
     }
 }
 
-[data-barba="wrapper"] .content-for-layout {
+body .content-for-layout {
     opacity: 1;
     animation: fadeOut 1s;
 }
