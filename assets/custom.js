@@ -24,6 +24,7 @@ if (document.querySelector('[data-barba="wrapper"]')) {
                     afterEnter(data) {
                         setTimeout(() => {
                             initPage();
+                            document.body.classList.remove('loading');
                         }, 500);
                     }
                 }
