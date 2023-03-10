@@ -10,16 +10,18 @@
         {% endif %}
         <div class="portfolio-list">
             {% for block in section.blocks %}
-                <div class="portfolio-item" style="background-image: url('{{ block.settings.image | img_url: '450x' }}')">
-                    <div class="portfolio-content">
-                        <h2 class="portfolio-heading">
-                            {{ block.settings.heading }}
-                        </h2>
-                        <div class="portfolio-description">
-                            {{ block.settings.description }}
-                        </div>
-                        <div class="portfolio-button">
-                            <a class="portfolio-link" href="{{ block.settings.link }}">View Site</a>
+                <div class="portfolio-item" style="background-image: url('{{ block.settings.image | img_url: '650x' }}')">
+                    <div class="portfolio-item--content">
+                        <div class="portfolio-item--wrapper">
+                            <h2 class="portfolio-item--heading">
+                                {{ block.settings.heading }}
+                            </h2>
+                            <div class="portfolio-item--description">
+                                {{ block.settings.description }}
+                            </div>
+                            <div class="portfolio-button">
+                                <a class="portfolio-link" href="{{ block.settings.link }}" target="_blank">View Site</a>
+                            </div>
                         </div>
                     </div>
                 </div>

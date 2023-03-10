@@ -709,6 +709,115 @@ body .content-for-layout {
     background: #18d26e;
 }
 
+.portfolio-list {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.portfolio-item {
+    width: calc(50% - 15px);
+    padding-top: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top;
+    border: 1px solid transparent;
+    position: relative;
+    transition: 0.3s;
+}
+
+.portfolio-item--content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.portfolio-item:hover {
+    border-color: #18d26e;
+}
+
+.portfolio-item:hover .portfolio-item--content {
+    display: flex;
+    animation: fadeOut 0.3s;
+}
+
+.portfolio-item--wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-item--heading {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.portfolio-item--description {
+    display: none;
+}
+
+.portfolio-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    white-space: nowrap;
+    transition: 0.3s;
+    position: relative;
+    text-decoration: none;
+}
+
+.portfolio-link:hover {
+    color: #fff;
+}
+
+.portfolio-link::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #18d26e;
+    visibility: hidden;
+    width: 0px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.portfolio-link:hover:before {
+    visibility: visible;
+    width: 100%;
+}
+
+@media (max-width: 989px) {
+    .portfolio-item {
+        width: 100%;
+    }
+
+    .portfolio-item--heading {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+}
+
 @keyframes fadeOut {
     0% {
         opacity: 0;
