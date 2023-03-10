@@ -586,6 +586,79 @@ body .content-for-layout {
     opacity: 0;
 }
 
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.service-item {
+    width: 30%;
+    text-align: center;
+    background: rgba(204, 204, 204, 0.1);
+    padding: 30px 20px;
+    transition: all ease-in-out 0.3s;
+    transition: 0.3s;
+}
+
+.service-item:hover {
+    background-color: #18d26e;
+}
+
+.service-image {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    background: #18d26e;
+    border-radius: 5px;
+    transition: all .3s ease-out 0s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transform-style: preserve-3d;
+}
+
+.service-image::before {
+    position: absolute;
+    content: '';
+    left: -8px;
+    top: -8px;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+    transition: all .3s ease-out 0s;
+    transform: translateZ(-1px);
+}
+
+.service-item:hover .service-image::before {
+    filter: invert(0);
+}
+
+.service-image img {
+    border-radius: 5px;
+}
+
+.service-item:hover .service-image img {
+    filter: invert(100%);
+}
+
+@media (max-width: 989px) {
+    .service-item {
+        width: calc(50% - 15px);
+    }
+}
+
+@media (max-width: 767px) {
+    .service-item {
+        width: 100%;
+    }
+}
+
 @keyframes fadeOut {
     0% {
         opacity: 0;
