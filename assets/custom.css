@@ -279,9 +279,12 @@ sticky-header {
     color: #fff;
 }
 
-.template--page .header {
+.template--page .section-header.shopify-section-group-header-group {
     background: rgba(0, 0, 0, 0.9);
-    max-width: 100%;
+}
+
+.template--page .header {
+    max-width: 140rem;
 }
 
 .portfolio-content {
@@ -571,6 +574,25 @@ sticky-header {
 @media (max-width: 749px) {
     .experience-timeline {
         width: 100%;
+    }
+}
+
+[data-barba="wrapper"] .content-for-layout {
+    opacity: 1;
+    animation: fadeOut 1s;
+}
+
+.loading .content-for-layout {
+    opacity: 0;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
 

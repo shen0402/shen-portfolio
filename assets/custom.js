@@ -8,15 +8,11 @@ if (document.querySelector('[data-barba="wrapper"]')) {
                 {
                     name: 'opacity-transition',
                     leave(data) {
-                        return gsap.to(data.current.container, {
-                            opacity: 0
-                        });
+                        document.querySelector('data-barba="wrapper"').classList.add('loading');
                     },
 
                     enter(data) {
-                        return gsap.from(data.next.container, {
-                          opacity: 0
-                        });
+                        document.querySelector('data-barba="wrapper"').classList.remove('loading');
                     },
             
                     afterLeave(data) {

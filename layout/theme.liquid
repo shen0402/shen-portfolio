@@ -250,7 +250,7 @@
     {%- endif -%}
 
     <div data-barba="wrapper">
-      <div data-barba="container" data-barba-namespace="template-{{ page.handle }}">
+      <div data-barba="container" data-barba-namespace="template--{{ template.name }}--{{ page.handle }}">
         <div class="template--{{ template.name }} page--{{ page.handle }}">
           {% sections 'header-group' %}
 
@@ -303,6 +303,6 @@
     {%- endif -%}
   </body>
   <script defer="defer" src="{{ 'barba.js' | asset_url }}" ></script>
-  <script defer="defer" src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
+
   <script defer="defer" src="{{ 'custom.js' | asset_url }}"></script>
 </html>
