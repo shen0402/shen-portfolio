@@ -1,5 +1,5 @@
 function initPage() {
-    document.body.classList.remove('overflow-hidden-tablet');
+    document.body.className = 'gradient';
 }
 if (document.querySelector('[data-barba="wrapper"]')) {
     setTimeout(() => {
