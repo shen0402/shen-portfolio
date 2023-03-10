@@ -659,6 +659,47 @@ body .content-for-layout {
     }
 }
 
+.contact-form * {
+    color: #000000;
+}
+
+.contact-form .field__input:focus {
+    border: 1px solid #18d26e;
+}
+
+.contact-form .field__input:focus ~ .field__label {
+    color: #18d26e;
+    transition: 0.3s;
+}
+
+.contact-form button {
+    background: #18d26e;
+    color: #000000;
+    transition: 0.3s;
+    border: 1px solid #18d26e;
+}
+
+.contact-form button:hover {
+    color: #18d26e;
+    background: #fff;
+}
+
+.contact-form button::before, .contact-form button::after {
+    display: none !important;
+}
+
+.contact-social {
+    margin-top: 30px;
+}
+
+.contact-social .list-social__item {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.contact-social .list-social__item:hover {
+    background: #18d26e;
+}
+
 @keyframes fadeOut {
     0% {
         opacity: 0;
