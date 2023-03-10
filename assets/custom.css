@@ -672,6 +672,10 @@ body .content-for-layout {
     color: #000000;
 }
 
+.contact-form .form-status {
+    color: #18d26e;
+}
+
 .contact-form .field__input:focus {
     border: 1px solid #18d26e;
 }
