@@ -1,0 +1,75 @@
+<div class="page-width">
+    <div class="experience portfolio-content">
+        <p class="portfolio-page-title">
+            PORTFOLIO
+        </p>
+        {% if section.settings.heading != blank %}
+            <h2 class="portfolio-heading">
+                {{ section.settings.heading }}
+            </h2>
+        {% endif %}
+        <div class="portfolio-list">
+            {% for block in section.blocks %}
+                <div class="portfolio-item" style="background-image: url('{{ block.settings.image | img_url: '450x' }}')">
+                    <div class="portfolio-content">
+                        <h2 class="portfolio-heading">
+                            {{ block.settings.heading }}
+                        </h2>
+                        <div class="portfolio-description">
+                            {{ block.settings.description }}
+                        </div>
+                        <div class="portfolio-button">
+                            <a class="portfolio-link" href="{{ block.settings.link }}">View Site</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% schema %}
+    {
+        "name": "Portfolio",
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading",
+                "default": "CHECK MY PORTFOLIO"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "portfolio",
+                "name": "Portfolio",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "Image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "heading",
+                        "label": "Heading"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "description",
+                        "label": "Description"
+                    },
+                    {
+                        "type": "url",
+                        "id": "link",
+                        "label": "Link"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "Portfolio"
+            }
+        ]
+    }
+{% endschema %}
