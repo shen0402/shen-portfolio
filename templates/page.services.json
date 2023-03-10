@@ -6,9 +6,74 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "a5dd967b-c8c0-4eaf-a9b6-4d7d5de4086e": {
+      "type": "services",
+      "blocks": {
+        "2f3493b2-d7fa-430a-929f-d482d66f7931": {
+          "type": "service",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/development.png",
+            "heading": "Theme Development",
+            "description": "<p>Ensuring all Shopify E-Commerce stores are built to modern standards, are SEO-optimized and perfectly match the approved design.<\/p>"
+          }
+        },
+        "a95cd811-b0bc-4241-b239-6b1be57d006d": {
+          "type": "service",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/app.png",
+            "heading": "App integration",
+            "description": "<p>Research requirements for all new Shopify projects including third-party apps, client requests or questions, and platform capabilities and limitations.<\/p>"
+          }
+        },
+        "3fcd9c2f-2a71-4a48-8ed3-885b74035cca": {
+          "type": "service",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/architecture.png",
+            "heading": "Architecture",
+            "description": "<p>Own sotfware architectural descisions on enterprise technology, software design, and implementation on the Shopify  platform.<\/p>"
+          }
+        },
+        "f45bf4ab-a132-4a9d-b2bb-c3f5c975f409": {
+          "type": "service",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/maintain.png",
+            "heading": "Store Maintenance",
+            "description": "<p>Detect, identify, anayze, troubleshoot, and develop bug fixes to ensure proper website disutrbance.<\/p>"
+          }
+        },
+        "a704af72-beb9-4e4d-b128-e92f7378eb3f": {
+          "type": "service",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pagespeed.png",
+            "heading": "Page speed optimization",
+            "description": "<p>Faster Page Speeds Help Increase Your Search Rankings and Drive New Traffic To Your Site. Stay Up To Speed With the Latest Technology, Daily Updates and Core Backups.<\/p>"
+          }
+        },
+        "1868500e-c202-4075-ad5f-940d8da21206": {
+          "type": "service",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/customdesign.png",
+            "heading": "Custom Development",
+            "description": "<p>Creative problem solving and outside-the-box thinking to develop innovative solutions for clients using technology.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "2f3493b2-d7fa-430a-929f-d482d66f7931",
+        "a95cd811-b0bc-4241-b239-6b1be57d006d",
+        "3fcd9c2f-2a71-4a48-8ed3-885b74035cca",
+        "f45bf4ab-a132-4a9d-b2bb-c3f5c975f409",
+        "a704af72-beb9-4e4d-b128-e92f7378eb3f",
+        "1868500e-c202-4075-ad5f-940d8da21206"
+      ],
+      "settings": {
+        "heading": "MY SERVICES"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "a5dd967b-c8c0-4eaf-a9b6-4d7d5de4086e"
   ]
 }
