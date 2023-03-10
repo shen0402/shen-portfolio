@@ -6,9 +6,170 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "ea1c8232-3a0a-4396-b4bf-85112e9ee74b": {
+      "type": "portfolio",
+      "blocks": {
+        "34fd02d4-ee40-46b9-a8a2-c7b10e8ffe5a": {
+          "type": "portfolio",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wisdom.png",
+            "heading": "Wisdom Panel",
+            "description": "<p>Theme development with Tailwind CSS andAlpine.js<\/p>",
+            "link": "https:\/\/wisdompanel.com"
+          }
+        },
+        "bcc24abf-4092-4616-83c0-3e7a263c374b": {
+          "type": "portfolio",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wornstar.png",
+            "heading": "Wornstar",
+            "description": "<ul><li>Upgrade theme from OS 1.0 to 2.0<\/li><li>Store Maintain<\/li><\/ul>",
+            "link": "https:\/\/wornstar.com"
+          }
+        },
+        "63adb17b-1b13-49fd-b77c-fa182ef66ad6": {
+          "type": "portfolio",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/citygrounds.png",
+            "heading": "Citygrounds",
+            "description": "<p>Theme development and management<\/p>",
+            "link": "https:\/\/www.citygrounds.com"
+          }
+        },
+        "5d7c7511-5478-4a7a-88ff-09366ecf497d": {
+          "type": "portfolio",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ehance.png",
+            "heading": "Enhancemyphoto",
+            "description": "<p>Theme management<\/p>",
+            "link": "https:\/\/enhancemyphoto.com"
+          }
+        },
+        "9a912e3d-a0f7-4970-9f73-e70971b9ce75": {
+          "type": "portfolio",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/topfitness.png",
+            "heading": "Topfitness",
+            "description": "<p>Theme management<\/p>",
+            "link": "https:\/\/www.topfitness.com"
+          }
+        },
+        "02ee0869-3372-493b-9400-a2431df6876c": {
+          "type": "portfolio",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lillys.png",
+            "heading": "Lillyskloset",
+            "description": "<p>Theme development and management<\/p>",
+            "link": "https:\/\/www.lillyskloset.net"
+          }
+        },
+        "db528bdc-c395-4e1c-8d09-a0b32a0f3eb2": {
+          "type": "portfolio",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/original.png",
+            "heading": "Originalnations",
+            "description": "<p>Theme management<\/p>",
+            "link": "https:\/\/originalnations.com"
+          }
+        },
+        "19c2d432-a326-4101-8176-90a9781861c7": {
+          "type": "portfolio",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kenney.png",
+            "heading": "Kennedyblue",
+            "description": "<p>Theme management<\/p>",
+            "link": "https:\/\/www.kennedyblue.com"
+          }
+        },
+        "7f186fc8-9cc5-4ca2-89b3-e67358008b88": {
+          "type": "portfolio",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/redwood.png",
+            "heading": "Redwoodreserves",
+            "description": "<p>Theme development and management<\/p>",
+            "link": "https:\/\/redwoodreserves.com"
+          }
+        },
+        "30e8c9d9-6c21-4854-b03a-a4ecae670f64": {
+          "type": "portfolio",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slofood.png",
+            "heading": "Slofoodgroup",
+            "description": "<p>Theme management<\/p>",
+            "link": "https:\/\/www.slofoodgroup.com"
+          }
+        },
+        "b304d6d2-535a-4a8d-9bed-6bfcb4c07de6": {
+          "type": "portfolio",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/just-wears.png",
+            "heading": "Just-Wears",
+            "description": "<p>Theme development and management<\/p>",
+            "link": "https:\/\/just-wears.com"
+          }
+        },
+        "2e6805d8-d252-4716-b678-8a69408b9469": {
+          "type": "portfolio",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/whisle.png",
+            "heading": "Whistle",
+            "description": "<p>Theme management<\/p>",
+            "link": "https:\/\/www.whistle.com"
+          }
+        },
+        "6fc652f8-5cef-4f14-a867-120afdd33129": {
+          "type": "portfolio",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/29029.png",
+            "heading": "29029everesting",
+            "description": "<p>Theme management<\/p>",
+            "link": "https:\/\/29029everesting.com"
+          }
+        },
+        "aa38b838-1e32-49d9-8925-bc6854521f28": {
+          "type": "portfolio",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dydx.png",
+            "heading": "dydxmerch",
+            "description": "<p>Theme development and management<\/p>",
+            "link": "https:\/\/dydxmerch.shop"
+          }
+        },
+        "bd62f3f6-9647-4612-85aa-1a5cd6ec19d8": {
+          "type": "portfolio",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grooming.png",
+            "heading": "Groominglounge",
+            "description": "<p>Theme development and management<\/p>",
+            "link": "https:\/\/www.groominglounge.com"
+          }
+        }
+      },
+      "block_order": [
+        "34fd02d4-ee40-46b9-a8a2-c7b10e8ffe5a",
+        "bcc24abf-4092-4616-83c0-3e7a263c374b",
+        "63adb17b-1b13-49fd-b77c-fa182ef66ad6",
+        "5d7c7511-5478-4a7a-88ff-09366ecf497d",
+        "9a912e3d-a0f7-4970-9f73-e70971b9ce75",
+        "02ee0869-3372-493b-9400-a2431df6876c",
+        "db528bdc-c395-4e1c-8d09-a0b32a0f3eb2",
+        "19c2d432-a326-4101-8176-90a9781861c7",
+        "7f186fc8-9cc5-4ca2-89b3-e67358008b88",
+        "30e8c9d9-6c21-4854-b03a-a4ecae670f64",
+        "b304d6d2-535a-4a8d-9bed-6bfcb4c07de6",
+        "2e6805d8-d252-4716-b678-8a69408b9469",
+        "6fc652f8-5cef-4f14-a867-120afdd33129",
+        "aa38b838-1e32-49d9-8925-bc6854521f28",
+        "bd62f3f6-9647-4612-85aa-1a5cd6ec19d8"
+      ],
+      "settings": {
+        "heading": "CHECK MY PORTFOLIO"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "ea1c8232-3a0a-4396-b4bf-85112e9ee74b"
   ]
 }
