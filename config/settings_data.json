@@ -1,6 +1,7 @@
 {
   "current": {
     "logo_width": 90,
+    "favicon": "shopify:\/\/shop_images\/icon.png",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#121212",
     "gradient_accent_1": "",
