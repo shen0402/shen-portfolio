@@ -654,6 +654,7 @@ body .content-for-layout {
 
 .service-item:hover .service-image img {
     filter: invert(100%);
+    background: #000000;
 }
 
 @media (max-width: 989px) {
