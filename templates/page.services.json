@@ -38,7 +38,7 @@
         "a704af72-beb9-4e4d-b128-e92f7378eb3f": {
           "type": "service",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pagespeed.png",
+            "image": "shopify:\/\/shop_images\/speed.png",
             "heading": "Page speed optimization",
             "description": "<p>Faster Page Speeds Help Increase Your Search Rankings and Drive New Traffic To Your Site. Stay Up To Speed With the Latest Technology, Daily Updates and Core Backups.<\/p>"
           }
@@ -46,7 +46,7 @@
         "1868500e-c202-4075-ad5f-940d8da21206": {
           "type": "service",
           "settings": {
-            "image": "shopify:\/\/shop_images\/customdesign.png",
+            "image": "shopify:\/\/shop_images\/custom.png",
             "heading": "Custom Development",
             "description": "<p>Creative problem solving and outside-the-box thinking to develop innovative solutions for clients using technology.<\/p>"
           }
