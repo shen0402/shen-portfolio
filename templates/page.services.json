@@ -22,7 +22,7 @@
         "3fcd9c2f-2a71-4a48-8ed3-885b74035cca": {
           "type": "service",
           "settings": {
-            "image": "shopify:\/\/shop_images\/architecture.png",
+            "image": "shopify:\/\/shop_images\/Architecture.png",
             "heading": "Architecture",
             "description": "<p>Own sotfware architectural descisions on enterprise technology, software design, and implementation on the Shopify  platform.<\/p>"
           }
@@ -46,7 +46,7 @@
         "1868500e-c202-4075-ad5f-940d8da21206": {
           "type": "service",
           "settings": {
-            "image": "shopify:\/\/shop_images\/custom.png",
+            "image": "shopify:\/\/shop_images\/customdevelopment.png",
             "heading": "Custom Development",
             "description": "<p>Creative problem solving and outside-the-box thinking to develop innovative solutions for clients using technology.<\/p>"
           }
