@@ -18,6 +18,14 @@
             "text": "<ul><li>Bachelor's degree<\/li><li>Computer of science<\/li><\/ul>"
           }
         },
+        "0c3051ae-d42d-43b1-bf0b-824b1c647ea0": {
+          "type": "experience",
+          "settings": {
+            "heading": "Senior Shopify Developer at SidekickWebstudio",
+            "time": "January 2023 - Present",
+            "text": "<ul><li>Shopify theme development \/ customization.<\/li><li>Shopfiy app integration.<\/li><li>Shopify page speed optimization.<\/li><\/ul>"
+          }
+        },
         "61ccf453-67d7-4f9f-ba04-899c31418ea1": {
           "type": "experience",
           "settings": {
@@ -54,6 +62,7 @@
       "block_order": [
         "d2891af2-997d-4e81-9494-bc9dc97d60a1",
         "c48a78b7-7616-4b79-af1b-0365f517638d",
+        "0c3051ae-d42d-43b1-bf0b-824b1c647ea0",
         "61ccf453-67d7-4f9f-ba04-899c31418ea1",
         "28fe10e1-8d98-41e3-b897-abd8583c8000",
         "c90757e7-2147-4763-adb1-7eebbdb0ddb5",
